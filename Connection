@@ -1,0 +1,23 @@
+ IR Sensor   | Arduino |
+ ----------- | ------- |
+ VCC         | 5V      |
+ GND         | GND     |
+ OUT (Left)  | A0      |
+ OUT (Right) | A1      |
+
+ Pin (L293D)  | Connection                                 |
+ ------------ | ------------------------------------------ |
+ 1 (Enable 1) | 5V (or PWM pin for speed control)          |
+ 2 (IN1)      | D8 (to control Motor A)                    |
+ 3 (OUT1)     | Motor A terminal 1                         |
+ 4, 5 (GND)   | GND                                        |
+ 6 (OUT2)     | Motor A terminal 2                         |
+ 7 (IN2)      | D9                                         |
+ 8 (Vcc2)     | External Motor Power (e.g., 6–12V battery) |
+ 9 (Enable 2) | 5V (or PWM pin for Motor B)                |
+ 10 (IN3)     | D10                                        |
+ 11 (OUT3)    | Motor B terminal 1                         |
+ 12, 13 (GND) | GND                                        |
+ 14 (OUT4)    | Motor B terminal 2                         |
+ 15 (IN4)     | D11                                        |
+ 16 (Vcc1)    | 5V (Arduino logic supply)                  |
